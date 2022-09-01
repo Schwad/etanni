@@ -1,24 +1,22 @@
 # frozen_string_literal: true
 
-require_relative "lib/etanni/version"
-
 Gem::Specification.new do |spec|
   spec.name = "etanni"
-  spec.version = Etanni::VERSION
+  spec.version = "0.0.2"
   spec.authors = ["Nick Schwaderer"]
   spec.email = ["nick.schwaderer@shopify.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Ruby templating engine from innate"
+  spec.description = "Ruby templating engine from innate"
+  spec.homepage = "https://github.com/schwad/etanni"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "http://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/schwad/etanni"
+  spec.metadata["changelog_uri"] = "https://github.com/schwad/etanni"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
